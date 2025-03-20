@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightpink;
+    border: 5px solid black;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    padding: 0 350px;
+}
+
+.nav {
+    display: flex;
+    font-size: 18px;
+    padding: 0 350px;
+}
+
+ul, li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
