@@ -342,3 +342,30 @@ height: 400px;
     /*outline: 3px solid #3882f6;*/
     border-radius: 6px;
 }
+
+/*Quote Section*/
+
+.quote { 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #e5e7eb;
+    padding: 64px;
+}
+
+.p-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.cite-quote {
+    font-size: 18px;
+    font-weight: 900;
+    display: block;
+    text-align: right;
+}
