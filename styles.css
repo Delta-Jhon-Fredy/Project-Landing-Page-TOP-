@@ -369,3 +369,41 @@ height: 400px;
     display: block;
     text-align: right;
 }
+
+/*Wrapper section*/
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.wrapper-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+    gap: 500px;
+    border-radius: 6px;
+    background-color: #3882f6;
+}
+
+.h2-wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #f9faf8;
+}
+
+.p-wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #e5e7eb;
+}
+
+.button-warapper {
+ padding: 15px;
+ }
